@@ -1,0 +1,18 @@
+h3{
+  margin: 100px;
+  margin-top: 50px;
+}
+
+ul{
+  margin: 800px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bottom {
+  margin-top: 200px;
+}
+
+ul > li {
+  text-align: center;
+}

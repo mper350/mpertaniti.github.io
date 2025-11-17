@@ -1,0 +1,17 @@
+<h1>Want to Contact Us?</h1>
+
+		<form action="/contact_us/contacted">
+
+			<label for="subject">Subject</label><br>
+			<input type="text" id="subject" name="subject" placeholder="Question Summary"><br>
+			<label for="question">Question</label><br>
+			<textarea id="question" name="question" placeholder="What is your question?" rows="5" cols="50"></textarea><br><br>
+
+      <fieldset>
+        <legend>Contact Info</legend>
+        <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="###-###-####">
+        <input type="email" id="email" name="email" placeholder="user@emailsite.com">
+      </fieldset>
+
+      <input type="submit" id="send" value="Click to Send">
+		</form>

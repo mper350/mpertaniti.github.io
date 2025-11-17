@@ -1,0 +1,12 @@
+/*Form Styles*/
+
+input, select, option{
+  height: 50px;
+  width: 300px;
+  margin: 25px
+}
+
+fieldset{
+  margin-left: 25%;
+  margin-right: 25%;
+}

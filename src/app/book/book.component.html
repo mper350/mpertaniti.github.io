@@ -1,0 +1,46 @@
+<h1>Want to Book a Trip?</h1>
+<br>
+		<form action="/book/booked">
+			I/We want to purchase
+			<input type="number" id="ticketnumber" min="1" max="99" value="2">
+			<select id="ticketway" name="ticketway">
+				<option value="twoway">Two</option>
+				<option value="oneway">One</option>
+			</select>
+			-Way
+			<select id="tickettype" name="tickettype">
+				<option value="Plane">Plane</option>
+				<option value="Boat">Boat</option>
+			</select>
+			Ticket/s to Taniti.<br><br>
+
+			I/We
+			<select id="newcomer" name="newcomer">
+				<option value="true">haven't</option>
+				<option value="false">have</option>
+			</select>
+			 been to Taniti before.<br><br>
+
+			I am/We are visiting from
+			<select id="country" name="country">
+				<option value="usa">The United States of America</option>
+				<option value="canada">Canada</option>
+				<option value="mexico">Mexico</option>
+				<option value="spain">Spain</option>
+				<option value="japan">Japan</option>
+				<option value="other">somewhere not listed here</option>
+			</select>
+			.<br><br>
+
+			I am/We are visiting for
+			<select id="tripreason" name="tripreason">
+				<option value="vacation">a Vacation</option>
+				<option value="honeymoon">our Honeymoon</option>
+				<option value="business">a Business Trip</option>
+				<option value="event">an Event</option>
+				<option value="other">something else</option>
+			</select>
+			.<br><br><br>
+
+			<input type="submit" id="bookTrip" name="bookTrip" value="Book Trip">
+		</form>
